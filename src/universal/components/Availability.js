@@ -2,16 +2,16 @@ import React from 'react'
 
 const weeks = {
   'Aug 7–Aug 11': {
-    booked: true,
+    booked: false,
   },
   'Aug 14–Aug 18': {
-    booked: true,
+    booked: false,
   },
   'Aug 21–Aug 25': {
-    booked: true,
+    booked: false,
   },
   'Aug 28–Sep 1': {
-    booked: true,
+    booked: false,
   },
   'Sep 4–Sep 8': {
     booked: false,
