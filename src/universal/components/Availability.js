@@ -33,7 +33,7 @@ const Week = ({ date, booked }) => {
   return (
     <div>
       <span className="Date">{date}: </span>
-      { !booked && <a href={`mailto=k@2052.me?subject=${subject}`}>Available</a> }
+      { !booked && <a href={`mailto:k@2052.me?subject=${subject}`}>Available</a> }
       { booked && <span className="booked">Booked</span>}
     </div>
   )
