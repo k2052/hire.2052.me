@@ -1,0 +1,26 @@
+@import "./colors.css";
+@import "./fonts.css";
+@import "./typo.css";
+
+body {
+  background: var(--white);
+  color: var(--black);
+  font-family: var(--body);
+  font-weight: 400;
+}
+
+.Main {
+  max-width: 60rem;
+  padding: 2rem;
+  margin: 0 auto;
+  background: var(--light-pink);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--heading);
+  color: var(--pink);
+}
+
+.booked {
+  opacity: 0.8;
+}

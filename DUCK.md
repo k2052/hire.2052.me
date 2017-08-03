@@ -1,0 +1,5 @@
+- shift color scheme
+- code up a quick sparkles and glitter script
+- add sparkles to links
+- a slider to sprinkle more glitter on the page
+- add glamor and some UI to tweak colors

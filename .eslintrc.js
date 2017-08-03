@@ -1,0 +1,52 @@
+module.exports = {
+  "globals": {
+    "$": true,
+    'SystemJS': true,
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+  },
+  "extends": [
+    "airbnb",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parser": "babel-eslint",
+  "indent": 2,
+  "plugins": [
+    "import"
+  ],
+  rules: {
+    "react/no-multi-comp": [0],
+    "no-prototype-builtins": [0],
+    "import/no-named-as-default": [0],
+    "react/forbid-prop-types": [0],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "arrow-parens": [0],
+    "import/extensions": [0],
+    "react/prop-types": [0],
+    "no-unused-expressions": [0],
+    "import/no-extraneous-dependencies": [0],
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "import/prefer-default-export": [0],
+    "no-constant-condition":  ["error", { "checkLoops": false }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/no-unresolved": [0],
+    "no-unused-vars": [2, {  "vars": "local" }],
+    "no-underscore-dangle": [0],
+    "no-restricted-syntax": [0],
+    "react/jsx-boolean-value": ["error", "always"],
+    "newline-per-chained-call": [0],
+    "global-require": [0],
+    "no-console": [0],
+    "no-param-reassign": [0],
+    'react/prefer-stateless-function': [0],
+    "space-before-function-paren": ["error", { "anonymous": "never", "named": "never" }],
+    semi: [2, "never"],
+    "arrow-body-style": [0],
+    "max-len": ["error", { "code": 150, "ignorePattern": "\\s*<" }],
+    "react/react-in-jsx-scope": [0],
+  },
+};

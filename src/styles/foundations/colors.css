@@ -1,0 +1,11 @@
+:root {
+  --white: hsla(219, 18%, 97%, 1);
+  --light-pink: hsla(354, 38%, 94%, 1);
+  --black: hsla(328, 4%, 25%, 1);
+  --pink: hsla(346, 100%, 77%, 1); /* yeah pink is awesome! */
+  --blue: hsla(199, 96%, 48%, 1);
+  --purple: hsla(294, 96%, 48%, 1); /* purple is almost as cool as pink */
+  --orange: hsla(17, 99%, 64%, 1);
+  --yellow: hsla(45, 82%, 78%, 1);
+  --green: hsla(162, 97%, 43%, 1);
+}
